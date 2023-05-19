@@ -12,21 +12,21 @@
   <% end %>
 
   <div>
-    <%= form.label :name, style: "display: block" %>
+    <%= form.label :name, class: "label" %>
     <%= form.text_field :name %>
   </div>
 
   <div>
-    <%= form.label :description, style: "display: block" %>
+    <%= form.label :description, class: "label" %>
     <%= form.text_area :description %>
   </div>
 
   <div>
-    <%= form.label :picture, style: "display: block" %>
-    <%= form.text_field :picture %>
+    <%= form.label :picture, class: "label",id:"picture-label"%>
+    <%= form.file_field :picture %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit class:"btn btn-primary"%>
   </div>
 <% end %>

@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+ p {
+	color: rgb(17, 255, 0);
+}
+.label{
+    display: block;
+    color:grey;
+}
+#picture-label{
+   color:rgb(43, 98, 226) 
+}
+#idea {padding: 10px;
+    text-align: center;
+    margin: 10px 0px;}
+footer {color: #05DBBA;
+    text-align: center;
+    padding: 100px 0px;
+    margin: 0px;
+    background-color: #2B3840;}          
+    footer a {
+        font-size: 30px;
+      }
+      
